@@ -14,3 +14,5 @@
 14. term-conditions page
 15. Single Blog page
 16. Single Product page
+17. cart page
+18. Checkout page
