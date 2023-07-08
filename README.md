@@ -6,3 +6,4 @@
 6. Wishlist page
 7. Login page
 8. Forgotpassword page
+9. signup page
