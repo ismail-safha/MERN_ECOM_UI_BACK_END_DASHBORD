@@ -50,7 +50,10 @@ const Header = () => {
             <div className="col-5">
               <div className="herder-upper-links d-flex align-items-center justify-content-between">
                 <div className="">
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/compare"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/public/images/compare.svg" alt="compare" />
                     <p className="mb-0">
                       Compare <br /> Products
