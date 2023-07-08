@@ -11,3 +11,4 @@
 11. privacy-policy page
 12. refund-policy page
 13. shipping-policy page
+14. term-conditions page
