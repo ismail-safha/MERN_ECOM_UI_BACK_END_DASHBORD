@@ -3,3 +3,4 @@
 3. blog page
 4. Contact page
 5. CompareProduct page
+6. Wishlist page
