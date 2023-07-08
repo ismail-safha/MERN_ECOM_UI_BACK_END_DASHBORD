@@ -13,3 +13,4 @@
 13. shipping-policy page
 14. term-conditions page
 15. Single Blog page
+16. Single Product page
