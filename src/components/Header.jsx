@@ -28,7 +28,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link href="/" className="text-white">
+                <Link href="#" className="text-white">
                   EComShop
                 </Link>
               </h2>
@@ -72,7 +72,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div className="">
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/login"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/public/images/user.svg" alt="user" />
                     <p className="mb-0">
                       Login <br /> My Account
