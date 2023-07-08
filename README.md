@@ -12,3 +12,4 @@
 12. refund-policy page
 13. shipping-policy page
 14. term-conditions page
+15. Single Blog page
