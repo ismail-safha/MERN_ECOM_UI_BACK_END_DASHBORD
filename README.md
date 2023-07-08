@@ -9,3 +9,4 @@
 9. signup page
 10. reset-password page
 11. privacy-policy page
+12. refund-policy page
