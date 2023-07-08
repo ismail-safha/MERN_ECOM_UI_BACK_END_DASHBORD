@@ -7,3 +7,4 @@
 7. Login page
 8. Forgotpassword page
 9. signup page
+10. reset-password page
