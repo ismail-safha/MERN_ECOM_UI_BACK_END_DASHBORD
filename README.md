@@ -16,3 +16,11 @@
 16. Single Product page
 17. cart page
 18. Checkout page
+
+---
+
+## BACK END
+
+- create backend with node js
+
+1. structure folder
