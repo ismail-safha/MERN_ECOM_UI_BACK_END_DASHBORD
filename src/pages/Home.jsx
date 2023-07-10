@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
+import { services } from "../utils/Data";
 
 const Home = () => {
   return (
@@ -92,41 +93,17 @@ const Home = () => {
           <div className="row">
             <div className="col-12">
               <div className="servies d-flex align-items-center justify-content-between">
-                <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service.png" alt="services" />
-                  <div>
-                    <h6>Free Shipping</h6>
-                    <p className="mb-0">From all orders over $5</p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service-02.png" alt="services" />
-                  <div>
-                    <h6>Daily Surprise Offers</h6>
-                    <p className="mb-0">Save upto 25% off</p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service-03.png" alt="services" />
-                  <div>
-                    <h6>support 24/7</h6>
-                    <p className="mb-0">Shop with an expert</p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service-04.png" alt="services" />
-                  <div>
-                    <h6>Affordable Prices</h6>
-                    <p className="mb-0">Get Factory Default Price</p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service-05.png" alt="services" />
-                  <div>
-                    <h6>Secure Payments</h6>
-                    <p className="mb-0">100% Protected Payment</p>
-                  </div>
-                </div>
+                {services.map((i, j) => {
+                  return (
+                    <div key={j} className="d-flex align-items-center gap-15">
+                      <img src={i.image} alt="services" />
+                      <div>
+                        <h6>{i.title}</h6>
+                        <p className="mb-0">{i.tagline}</p>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

@@ -14,7 +14,6 @@ import { Link } from "react-router-dom";
 const ProductCard = (props) => {
   // eslint-disable-next-line react/prop-types
   const { grid } = props;
-  console.log(grid);
   let location = useLocation();
   return (
     <>

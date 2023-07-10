@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import ReactStars from "react-rating-stars-component";
