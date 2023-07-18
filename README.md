@@ -30,3 +30,10 @@
 3. connect mongodb and post data
 
 4. error Handling
+
+5. login functionality
+
+- password crypted use bcrypt
+- password is correct return true is not correct return false
+- login controller
+  . check if user exists or not
