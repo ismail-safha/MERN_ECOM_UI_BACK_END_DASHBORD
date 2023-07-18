@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-undef
 const User = require("../models/userModel");
-// const asyncHandler = require("express-async-handler");
+const asyncHandler = require("express-async-handler");
 
 // Create a User ----------------------------------------------
 
-const createUser = async (req, res) => {
+const createUser = asyncHandler(async (req, res) => {
   /**
    * TODO:Get the email from req.body
    */
@@ -18,18 +18,16 @@ const createUser = async (req, res) => {
     /**
      * TODO:if user not found user create a new user
      */
-    const newUser = User.create(req.body);
+    const newUser = await User.create(req.body);
     res.json(newUser);
   } else {
     /**
      * TODO:if user found then thow an error: User already exists
      */
-    res.json({
-      msg: "User Already Exists",
-      success: false,
-    });
+
+    throw new Error("User Already Exists");
   }
-};
+});
 
 // eslint-disable-next-line no-undef
 module.exports = { createUser };

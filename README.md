@@ -28,3 +28,5 @@
 2. config mongodb nodejs
 
 3. connect mongodb and post data
+
+4. error Handling
