@@ -24,3 +24,7 @@
 - create backend with node js
 
 1. structure folder
+
+2. config mongodb nodejs
+
+3. connect mongodb and post data
