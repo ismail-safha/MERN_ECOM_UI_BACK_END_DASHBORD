@@ -37,3 +37,10 @@
 - password is correct return true is not correct return false
 - login controller
   . check if user exists or not
+
+6. Update user and delete user and fetch the users and fetch single user
+
+- get all the users
+- fetch the users
+- deleted the users
+- Update the users
