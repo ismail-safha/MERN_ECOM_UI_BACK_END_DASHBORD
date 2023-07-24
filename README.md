@@ -48,6 +48,9 @@
 7. Verify the token and verification and check if the user is admin or not validation for mongodb \_id and can admin block the users
 
 8. create auth Middleware use jwt
+
    - create function admin
    - create function admin can block User
    - create function admin can User
+
+9. create validate the mongodb id
