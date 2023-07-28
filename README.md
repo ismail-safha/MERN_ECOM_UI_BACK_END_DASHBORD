@@ -60,3 +60,10 @@
 - instal cookie-parser
 - handle refresh token user
 - Logout functionality
+
+11. Product Module
+
+- create Product
+- update Product
+- delete Product
+- get Product
