@@ -67,3 +67,10 @@
 - update Product
 - delete Product
 - get Product
+
+11. Product Module-2
+
+- get All Product
+-      . Filtering
+-      . Sorting
+-      . pagination
