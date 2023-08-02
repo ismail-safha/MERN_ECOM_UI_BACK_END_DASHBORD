@@ -74,3 +74,5 @@
 -      . Filtering
 -      . Sorting
 -      . pagination
+
+12. update password reset password and reset password token using email
