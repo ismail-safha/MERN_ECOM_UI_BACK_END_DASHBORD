@@ -78,3 +78,5 @@
 12. update password reset password and reset password token using email
 
 13. email integration forgot Pass word Token
+
+14. reset password
