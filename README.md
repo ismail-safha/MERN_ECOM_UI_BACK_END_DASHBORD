@@ -89,3 +89,11 @@
 - delete blog
 - like the Blog functionally
 - disLike the Blog functionally
+
+16. Product category Module
+
+- create Product category
+- get Product category
+- update Product category
+- get all Product category
+- delete Product category
