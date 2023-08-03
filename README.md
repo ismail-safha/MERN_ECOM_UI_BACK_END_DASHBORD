@@ -113,3 +113,5 @@
 - update Brand
 - get all Brand
 - delete Brand
+
+19. Wishlist Functionality
