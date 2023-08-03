@@ -80,3 +80,12 @@
 13. email integration forgot Pass word Token
 
 14. reset password
+
+15. Blog Module
+
+- get Blog
+- update Blog
+- get all Blog
+- delete blog
+- like the Blog functionally
+- disLike the Blog functionally
