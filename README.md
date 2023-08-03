@@ -97,3 +97,11 @@
 - update Product category
 - get all Product category
 - delete Product category
+
+17. Blog category Module
+
+- create Product category
+- get Product category
+- update Product category
+- get all Product category
+- delete Product category
