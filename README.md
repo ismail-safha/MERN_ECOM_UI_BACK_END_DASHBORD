@@ -105,3 +105,11 @@
 - update Product category
 - get all Product category
 - delete Product category
+
+18. Brand Module
+
+- create Brand
+- get Brand
+- update Brand
+- get all Brand
+- delete Brand
