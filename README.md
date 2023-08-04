@@ -115,3 +115,5 @@
 - delete Brand
 
 19. Wishlist Functionality
+
+20. Product rating Functionality
