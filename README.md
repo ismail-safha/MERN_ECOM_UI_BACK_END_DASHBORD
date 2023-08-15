@@ -119,3 +119,7 @@
 20. Product rating Functionality
 
 21. Coupon model Functionality
+
+22. use Cloudinery functionality
+
+- npm i multer sharp cloudinary
