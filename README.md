@@ -122,4 +122,6 @@
 
 22. use Cloudinery functionality
 
-- npm i multer sharp cloudinary
+-      npm i multer sharp cloudinary
+
+23. admin login functionality and get Wishlist
