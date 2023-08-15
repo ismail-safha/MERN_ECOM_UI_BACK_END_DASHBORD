@@ -117,3 +117,5 @@
 19. Wishlist Functionality
 
 20. Product rating Functionality
+
+21. Coupon model Functionality
