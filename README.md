@@ -143,3 +143,7 @@
 ## Admin Dashboard UI
 
 - create Admin Dashboard UI
+
+1. create login page ui
+
+2. create pages
