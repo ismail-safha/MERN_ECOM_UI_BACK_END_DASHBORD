@@ -76,3 +76,7 @@ main::-webkit-scrollbar {
   color: red;
   font-size: 12px;
 }
+
+.quill {
+  background-color: #fff;
+}

@@ -147,3 +147,5 @@
 1. create login page ui
 
 2. create pages
+
+- create blog page
