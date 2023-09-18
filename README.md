@@ -149,3 +149,5 @@
 2. create pages
 
 - create blog page
+
+- create Add Blog category and all page ui
