@@ -118,7 +118,7 @@ const Dashboard = () => {
             <h4 className="mb-0 sub-title">$1100</h4>
           </div>
           <div className="d-flex flex-column align-items-end">
-            <h6>
+            <h6 className="red">
               <BsArrowDownRight /> 32%
             </h6>
             <p className="mb-0  desc">Compared To April 2022</p>
@@ -149,16 +149,18 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      <div className="mt-4">
-        <h3 className="mb-5 title">Income Statics</h3>
-        <div>
-          <Column {...config} />
+      <div className="">
+        <div className="mt-4 flex-grow-1">
+          <h3 className="mb-5 title">Income Statics</h3>
+          <div>
+            <Column {...config} />
+          </div>
         </div>
-      </div>
-      <div className="mt-4">
-        <h3 className="mb-5 title">Recent Orders</h3>
-        <div>
-          <Table columns={columns} dataSource={data1} />
+        <div className="mt-4  flex-grow-1">
+          <h3 className="mb-5 title">Recent Orders</h3>
+          <div>
+            <Table columns={columns} dataSource={data1} />
+          </div>
         </div>
       </div>
     </div>

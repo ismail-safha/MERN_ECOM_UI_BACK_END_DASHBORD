@@ -151,3 +151,5 @@
 - create blog page
 
 - create Add Blog category and all page ui
+
+3. Customize our mean Admin panels and finish Ui 🌟
