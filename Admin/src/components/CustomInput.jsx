@@ -10,7 +10,7 @@ const CustomInput = (props) => {
         name={name}
         value={val}
         onChange={onChng}
-        onBlur={onBlr}
+        onBlur={onChng}
       />
       <label htmlFor={label}>{label}</label>
     </div>

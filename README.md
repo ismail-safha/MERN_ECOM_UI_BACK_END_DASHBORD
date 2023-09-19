@@ -153,3 +153,11 @@
 - create Add Blog category and all page ui
 
 3. Customize our mean Admin panels and finish Ui 🌟
+
+---
+
+## Api Integration with Admin Panel using Redux Toolkit ❤
+
+1.  redux toolkit
+
+- email validation use Yup and formik
