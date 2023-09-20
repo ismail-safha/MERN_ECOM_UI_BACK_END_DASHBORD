@@ -162,3 +162,5 @@
 
 - email validation use Yup and formik
 - ✅ finsh auth admin panael
+- remove this user default state from local storage
+- Integrate Customers page from server ✅
