@@ -161,3 +161,4 @@
 1.  redux toolkit
 
 - email validation use Yup and formik
+- ✅ finsh auth admin panael

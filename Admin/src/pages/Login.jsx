@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import CustomInput from "../components/CustomInput";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../features/auth/authSlice";
+import { useEffect } from "react";
 
 const Login = () => {
+  const navigate = useNavigate();
   // use redux
 
   const dispatch = useDispatch();
@@ -31,6 +33,16 @@ const Login = () => {
   });
 
   // ===End
+  const { user, isLoding, isError, isSuccess, message } = useSelector(
+    (state) => state.auth
+  );
+  useEffect(() => {
+    if (!user == null || isSuccess) {
+      navigate("admin");
+    } else {
+      alert("not admin");
+    }
+  }, [user, isLoding, isError, isSuccess, message]);
 
   return (
     <div className="py-5" style={{ background: "#ffd333", minHeight: "100vh" }}>
