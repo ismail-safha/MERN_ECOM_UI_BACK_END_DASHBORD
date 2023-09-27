@@ -164,3 +164,6 @@
 - ✅ finsh auth admin panael
 - remove this user default state from local storage
 - Integrate Customers page from server ✅
+
+- product listing Integration
+- brand listing Integration
